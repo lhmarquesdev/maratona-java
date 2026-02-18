@@ -15,7 +15,14 @@ public class VeiculoTest01 {
         carro2.modelo = "Joy";
         carro2.ano = 2025;
 
-        System.out.println("\nNome: " + carro1.nome + " Modelo: " + carro1.modelo + " Ano: " + carro1.ano);
-        System.out.println("\nNome: " + carro2.nome + " Modelo: " + carro2.modelo + " Ano: " + carro2.ano);
+        System.out.println("Carro 1");
+        System.out.println(carro1.nome);
+        System.out.println(carro1.modelo);
+        System.out.println(carro1.ano);
+
+        System.out.println("\nCarro 2");
+        System.out.println(carro2.nome);
+        System.out.println(carro2.modelo);
+        System.out.println(carro2.ano);
     }
 }
